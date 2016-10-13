@@ -1,0 +1,11 @@
+create table user(
+   id INT NOT NULL auto_increment,
+   fname VARCHAR(20) default NULL,
+   lname  VARCHAR(20) default NULL,
+   salary   double  default NULL,
+   age int ,
+   bdate date,
+   PRIMARY KEY (id)
+);
+
+insert into user values(1,"Mamuka","Programmer", 4999.0,40,'1986-04-01');
